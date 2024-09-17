@@ -1,0 +1,3 @@
+Create another version of the previous Java program in the same project.
+
+Read input data as command line arguments instead of interactive user input.
