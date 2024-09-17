@@ -1,7 +1,8 @@
-package org.example;
-
 import java.util.Scanner;
 
+/**
+ * Calculates how many '1' bits are in the binary representation of given ages.
+ */
 
 public class BasicBirthday {
     public static void main(String[] args) {
