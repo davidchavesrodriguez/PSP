@@ -1,7 +1,3 @@
-# Basic Birthday
-
-### A22DavidCR
-
 A person wants to reduce the number of candles to be used to celebrate their birthday.\
 To achieve this, the person is going to set their new age in binary.\
 Each candle will represent one bit, and the candle will be lit to represent a 1, or extinguished to indicate a 0.\
