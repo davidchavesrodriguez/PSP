@@ -1,0 +1,8 @@
+DU1 - Exercise 1 - Java Runtime Class
+
+Use the Java Runtime Class to do the following tasks:
+
+    Obtain the number of available processors for the JVM
+    Launch the Google Chrome browser
+    Launch YouTube on the Google Chrome browser
+    Launch notepad
