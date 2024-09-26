@@ -2,7 +2,7 @@ package org.example;
 
 import java.io.IOException;
 
-public class ExecPrograms {
+public class JavaRuntimeClass {
     public static void main(String[] args) throws IOException {
         Runtime runtime= Runtime.getRuntime();
         // check processors

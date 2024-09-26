@@ -1,0 +1,11 @@
+
+
+DU1 - Exercise 2 - Java Runtime Class - RuntimeBirthday
+
+Use the Java Runtime Class to launch the argument version encapsulated in the jar generated in the Birthday project.
+
+Place the jar file in the resources folder of the new project.
+
+Use java.util.Random to randomly generate the number of cases and each of the cases.
+
+Display a message in the standard output to inform the user about the correct or incorrect execution of the Birthday argument program.
