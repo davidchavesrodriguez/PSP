@@ -10,15 +10,18 @@ public class SetEnvironment {
         Map<String, String> environment = pb.environment();
         environment.put("NUMBER1", "19");
         environment.put("NUMBER2", "77");
+
         try {
-            System.out.println("Current Environment Variables:");
-            for (Map.Entry<String, String> entry : environment.entrySet()) {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
-            }
-            Process p = new ProcessBuilder("set finalNumber= NUMBER1 + NUMBER2").start();
-        } catch (IOException e) {
+            pb.command("cmd.exe", "/c", "set /a RESULT=%NUMBER1%+%NUMBER2%");
+
+            Process process = pb.start();
+            process.waitFor();
+            process.getInputStream().transferTo(System.out);
+
+        } catch (NumberFormatException e) {
+            System.err.println("Error converting environment variables to numbers: " + e.getMessage());
+        } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
 }
-

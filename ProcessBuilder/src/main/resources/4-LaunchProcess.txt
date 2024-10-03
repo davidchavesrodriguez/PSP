@@ -1,5 +1,3 @@
-
-
 DU1 - Exercise 4 - Java ProcessBuilder - ping
 
 Test the class in the file LaunchProcess.java in Windows in the following situations:
