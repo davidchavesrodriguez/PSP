@@ -1,0 +1,5 @@
+DU1 - Exercise 8 - Java ProcessBuilder -tracert
+Create a process to launch in the command line a tracert to iessanclemente.net.
+Redirect the process output to a file called outputTracert.txt using the redirectOutput method of ProcessBuilder
+Wait for 500 miliseconds after the start of the process and destroy the process after that time throwing an InterruptedException.
+Verify the content of the outputTracert.txt file.
