@@ -1,0 +1,7 @@
+DU1 - Exercise 14 - Java ProcessBuilder
+
+Create a program in Java that reads from the standard input a number and after it reads the quantity of numbers indicated above.  The program must add up all the numbers and calculate the square of the sum and display the result on the standard output.
+
+Create another program in Java that reads from the standard input a number and after it reads the quantity of numbers indicated above.  The program must square all of the numbers and then calculate their sum and display the result on the standard output.
+
+Finally, create another program that launches the two programs created earlier using the same numbers and display the result on the standard output. Use getInputStream and getOutputStream to communicate with the processes.
