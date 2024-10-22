@@ -1,0 +1,4 @@
+DU1 - Exercise 12 - Java ProcessBuilder
+
+Create a program in Java that takes two numbers from command line and add all even numbers between the smaller and the greater both inclusive,Test the program to verify it works properly.
+Create a new program to launch the previous program. Redirect the errors to a file named errors.txt. Redirect the output to a file named output.txt. Its important to wait until the launched process is finished.
