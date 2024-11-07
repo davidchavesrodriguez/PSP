@@ -1,0 +1,15 @@
+DU2 - Exercise 4 - Java Threads - Thread pool - Image processing
+
+We want to create a multithreaded application.
+
+The main thread must create a thread pool of size five.
+
+Each thread must process an image placed in the resources/originals folder to convert its colours to grayscale.
+
+Use the information given in the  following URL to perform the conversion:
+
+https://www.geeksforgeeks.org/image-processing-in-java-colored-image-to-grayscale-image-conversion/
+
+Place the processed images in a folder called results. The names of the processed images should be the same as the names of the unprocessed images not but with _grey at the end. Example: lion.png when processed should be lion_grey.png.
+
+Once all images have been processed, the program should terminate.

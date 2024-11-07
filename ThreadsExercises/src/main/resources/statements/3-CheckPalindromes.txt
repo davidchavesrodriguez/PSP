@@ -1,0 +1,22 @@
+DU2 - Exercise 3 - Java Threads - Callable
+
+We want to create a multithreaded application.
+
+The main thread must create an array of ten words. That main thread must create ten threads whose job is to check whether a word is a palindrome or not. A palindrome is a word, phrase, verse or even number that reads the same forwards or backwards.
+
+Examples of palindromes:
+
+    kayak
+    deified
+    rotator
+    repaper
+    deed
+    peep
+    wow
+    noon
+    civic
+    racecar
+    level
+    mom
+
+The main thread must indicate in the standard output for each word whether it is a palindrome or not.
