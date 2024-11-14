@@ -2,10 +2,10 @@ package org.example.superevennumbers;
 
 import java.util.concurrent.Callable;
 
-public class SuperEvenChecker implements Callable<Boolean> {
+public class SuperEvenCheckerCallable implements Callable<Boolean> {
     private final String numberString;
 
-    public SuperEvenChecker(String numberString) {
+    public SuperEvenCheckerCallable(String numberString) {
         this.numberString = numberString;
     }
 
