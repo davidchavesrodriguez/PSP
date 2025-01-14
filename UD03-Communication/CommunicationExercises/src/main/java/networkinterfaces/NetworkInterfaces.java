@@ -27,6 +27,9 @@ public class NetworkInterfaces {
                     for (InterfaceAddress address : addresses) {
                         InetAddress inetAddress = address.getAddress();
 
+                        // Print a separator for better readability
+                        System.out.println("---------------------------------");
+
                         // Check if the address is IPv4
                         if (inetAddress instanceof Inet4Address) {
                             System.out.println("IPv4 Address: " + inetAddress.getHostAddress());
