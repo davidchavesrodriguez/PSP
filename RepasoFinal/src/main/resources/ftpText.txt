@@ -1,0 +1,9 @@
+demos/     Demos and intros sorted by group/artist
+graphics/  Graphics sorted by group/artist
+mags/      Disk magazines, the newspapers of the demoscene
+music/     Music releases sorted by group/artist
+parties/   Party releases sorted by year/party
+resources/ Scene-related resources, tutorials, utils, etc
+mirrors/   Full mirrors of:  * The Hornet Archive
+                             * The ACiD Artpacks Archive
+                             * The Padua C64 Archive
